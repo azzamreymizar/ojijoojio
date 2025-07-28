@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5E936C;
+}
+
+.nama {
+    margin-left: 400px;
+    margin-top: 175px;
+    padding-top: 20px;
+    position: absolute;
+    font-weight: 15px;
+    font-size: 40px;
+}
+
+.me {
+    margin: 35px;
+    position: absolute;
+    margin-top: 239px;
+    margin-left: 400px;
+    font-size: 40px;
+}
+
+.desc{
+    font-size: 17px;
+    width: 750px;
+    margin: 20px;
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 400px;
+    font-weight: 35px;
+    font-family: 'Playfair Display';
+    color: #333333;
+}
+
+.nav ul {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin: 15px;
+    gap: 15px;
+    text-align: center;
+    margin-left: 415px;
+    font-weight: bold;
+    margin-top: 17px;
+}
+
+
+.button{
+    margin-top: 385px;
+    margin-left: 30px;
+    background-color: #B1AB86;
+    color: whitesmoke;
+    padding: 15px;
+    border: none;
+    width: 135px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button2{
+    margin-top: 385px;
+    margin-left: 190px;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    width: 135px;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+}
+
+.div:hover{
+    background-color:  red;
+}
+
+.nav:hover ul li{
+    color: rgb(72, 72, 72);
+    transition: 0.5;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.button:hover{
+    background-color:  rgb(249 250 251);
+    color: black;
+    transition: 0.5s;
+}
+
+.button2:hover{
+    background-color: rgb(249 250 251);
+    color: black;
+    transition: 0.5s;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 200px;
+    margin-left: 165px;
+
+}
+
+.myportfolio{
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 10px;
+    color: #f3f1d4;
+}
+
+.card{
+    background-color: #A2AF9B;
+    height: 330px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.card{
+    background-color: #A2AF9B;
+    height: 330px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+.card{
+    background-color: #A2AF9B;
+    height: 330px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.card button{
+    background-color: #f3f1d4;
+    padding: 15px;
+    border-radius: 15px;
+    width: 120px;
+    margin-top: 85px;
+    margin-left: 70px;
+    border: solid whitesmoke;
+}
+
+.container{
+    display: flex;
+}
+
+.card p{
+    padding: 15px;
+}
